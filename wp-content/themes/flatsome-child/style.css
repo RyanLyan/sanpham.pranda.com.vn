@@ -1,0 +1,1230 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: WebDaiTin.com
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+/* css header */
+div#masthead {
+    background: #008848;
+}
+div#masthead input#woocommerce-product-search-field-0 {
+    background-color: #fff !important;
+    border-radius: 6px;
+	color: #000 !important;
+}
+div#masthead input#woocommerce-product-search-field-0::placeholder {
+    color: #000;
+}
+div#masthead i.icon-search {
+    color: #9b8f8f;
+}
+a.header-cart-link.is-small {
+    line-height: 0;
+}
+a.header-cart-link.is-small span {
+    color: #fff;
+    text-transform: initial;
+}
+div#masthead a.header-cart-link i.icon-shopping-basket {
+    color: #fff;
+}
+.stuck .header-main .nav > li > a {
+    padding: 0;
+}
+
+/* css đơn hàng của bạn */
+#masthead a.tracuu-donhang {
+    text-transform: initial;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 15px;
+    width: 80px;
+    color: #fff;
+    padding: 6px;
+    border-radius: 6px;
+	background: #076e3e;
+}
+#masthead a.tracuu-donhang:hover {
+	color: #fff300;
+}
+
+/* css trang chủ */
+#main {
+    background: #e9edf0;
+}
+.home main#main>.page-wrapper {
+    padding-top: 5px;
+	padding-bottom: 0;
+}
+.sidebar-right {
+    padding-bottom: 0;
+}
+section>.row>.col {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+/* css banner */
+.col.col-padding {
+    padding: 5px
+}
+.slider-nav-light .flickity-page-dots .dot {
+    border-color: #008848;
+}
+
+/* css coupon */
+.col.col-coupon>.col-inner {
+    background: #fff;
+	padding: 10px;
+}
+.stack-coupon .icon-box,.stack-coupon .ct-coupon{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 24%;
+    flex-shrink: 0;
+}
+.stack.stack-coupon{
+    justify-content: space-between;
+    background: white;
+    border-radius: 4px;
+}
+.ct-coupon {
+    vertical-align: text-bottom;
+    border: 1px solid #037841;
+    border-radius: 4px;
+    padding: 5px;
+}
+.ct-coupon .title {
+    color: #037841;
+    font-size: 17px;
+    font-weight: 600;
+}
+.ct-coupon .content {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+/* css nhóm hàng thường mua - cate-pro */
+.col-cate-pro>.col-inner {
+    background: #fff;
+    padding: 6px 10px;
+}
+.stack-cate .icon-box,.stack-cate a{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-basis: 9%;
+    flex-shrink: 0;
+}
+.stack.stack-cate{
+    justify-content: space-between;
+}
+.box-cate .icon-box-img {
+    margin-bottom: 4px;
+}
+.ct-cate p {
+    color: #0064c2;
+    font-size: 13px;
+	line-height: 19px;
+}
+.title-cate p {
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #000;
+}
+
+/* css sản phẩm trang chủ */
+/* css nút load ajax - xem thêm */
+.col-loadajax>.col-inner {
+    background: #fff;
+    margin-top: -10px;
+}
+.btn-loadajax button.btn-xemthem {
+    margin: 5px 0;
+    color: #0064c2;
+    text-transform: inherit;
+    font-weight: 400;
+    font-size: 14px;
+}
+.btn-loadajax button.btn-xemthem:after {
+    content: "";
+    font-family: 'fl-icons';
+    vertical-align: middle;
+    padding-left: 6px;
+}
+
+/* css title-product */
+.title-product p {
+    margin-bottom: 0;
+    padding: 2px 0 5px 0;
+    font-weight: 600;
+    color: #6f9972;
+    text-transform: uppercase;
+}
+
+/* 	css cửa hàng sản phẩm - shop */
+.col-product>.col-inner {
+	padding: 0 9px;
+}
+.product-small.col {
+	padding: 0px;
+}
+.product-small.col>.col-inner {
+	background: #fff;
+	border: 1px solid #eee;
+}
+.product-small.col>.col-inner:hover {
+}
+.product-small.col .box-image {
+    margin-top: 2px;
+}
+.product-small.col .box-image .image-fade_in_back {
+    padding: 6px 8px 0 8px;
+}
+.product-small.col p.name.product-title.woocommerce-loop-product__title {
+    height: 40px;
+}
+.product-small.col a.woocommerce-LoopProduct-link.woocommerce-loop-product__link {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.product-small.col .title-wrapper {
+	padding: 0px 4px;
+	border-bottom: 1px solid #e4e9f2;
+}
+.product-small.col .price-wrapper {
+	padding: 8px 0 4px 4px;
+}
+.product-small.col .price .amount bdi {
+    color: #b10e0e;
+}
+.product-small.col  .box-text-products {
+	padding: 5px;
+}
+
+/* css form giỏ hàng nhanh */
+
+.product-small.col .pvlan-btn-quantity {
+    display: flow-root;
+	padding: 0px 6px;
+}
+.product-small.col .quantity.buttons_added {
+	margin-right: 5px;
+}
+.product-small.col a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    margin-right: 0;
+    padding: 1px 4px;
+    font-size: 11px;
+    text-transform: initial;
+	display: flow-root;
+	background: bottom;
+    color: #008848;
+    border: 1px solid #008848;
+}
+.product-small.col a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover {
+	background: #008848;
+    color: #fff;
+    border: 1px solid #008848;
+}
+.product-small.col a.added_to_cart.wc-forward {
+    display: none;
+}
+.product-small.col .quantity.buttons_added {
+    float: left;
+}
+/* css form add to cart */
+.product-small.col .quantity .button.minus, .quantity .button.plus {
+    width: 24px;
+    min-height: 16px;
+    line-height: 16px;
+    background-color: rgb(214 222 225 / 30%);
+    border: 1px solid #e5e5e5;
+}
+.product-small.col .quantity input[type="number"] {
+    height: 30px;
+    width: 38px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 0;
+    font-size: 13px;
+}
+/* css đơn vị */
+span.pvlan_woocommerce_price_donvi {
+    font-size: 13px;
+}
+
+/* css footer */
+.footer-2 {
+    padding-top: 10px;
+	border-top: none
+}
+.footer-right-sidebar {
+	padding: 0 6px 0 14px;
+}
+.footer-right-sidebar>.col-inner {
+    background: #fff;
+    padding: 12px 10px;
+}
+.footer-right-sidebar>.col-inner .row-tb {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.col-tb {
+    padding-bottom: 0;
+}
+.col-tb .col-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tb-icon-1 p {
+    background-image: url(/wp-content/uploads/2021/11/icon-dongho.png);
+    padding: 0px 0px 0px 40px;
+}
+.tb-icon-2 p {
+    background-image: url(/wp-content/uploads/2021/11/icon-back.png);
+    padding: 10px 0px 0px 40px;
+    height: 32px;
+}
+.tb-text p {
+    background-repeat: no-repeat;
+    background-size: 28px;
+    background-position: left center;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+/* css footer-detail */
+.footer-detail {
+    padding-top: 10px;
+}
+p.tongdai-text, p.tongdai-text a {
+    font-weight: 600;
+    color: #008848;
+    font-size: 14px;
+}
+p.tongdai-1, p.tongdai-2 {
+	background-repeat: no-repeat;
+    background-size: 17px;
+    padding-left: 21px;
+    background-position: left;
+	margin-bottom: 8px;
+}
+p.tongdai-1 {
+    background-image: url(/wp-content/uploads/2021/11/f-phone.png);
+}
+p.tongdai-2 {
+    background-image: url(https://food.webmau16.com/wp-content/uploads/2021/11/icon-dangki.png);
+}
+ul.f-text-detal li {
+    list-style: disc;
+    color: #288ad6;
+    font-size: 10px;
+}
+ul.f-text-detal li a {
+    font-size: 12px;
+    color: #288ad6;
+}
+.col.col-ul {
+    padding-bottom: 8px;
+}
+p.hethong {
+    background-image: url(/wp-content/uploads/2021/11/hethong-cuahang.png);
+    background-repeat: no-repeat;
+    background-size: 21px;
+    padding-left: 25px;
+    background-position: left;
+}
+p.hethong, p.hethong a {
+    font-weight: 600;
+    color: #288ad6;
+    font-size: 14px;
+}
+
+/* css chi tiết sản phẩm */
+.single-product .product-info {
+    padding-bottom: 0;
+}
+.single-product .product-main {
+    padding: 0;
+}
+.single-product .div-pro-img {
+    background: #fff;
+}
+.single-product nav.woocommerce-breadcrumb {
+    padding: 10px;
+}
+.single-product nav.woocommerce-breadcrumb a {
+    color: #288ad6;
+    text-transform: initial;
+}
+.single-product .product-images .woocommerce-product-gallery__image {
+    border: 1px solid #ededed;
+    border-radius: 4px
+}
+.sidebar-right {
+    border-left: none !important;
+}
+.single-product .product-info {
+    padding-top: 0;
+}
+.single-product h1.product-title.product_title.entry-title {
+    font-size: 22px;
+    color: #4a4a4a;
+    font-weight: 300;
+}
+.single-product .product-info .price .amount bdi {
+    font-size: 24px;
+    color: #c10017;
+}
+button.single_add_to_cart_button.button.alt {
+    background: #0098de;
+    border-radius: 6px;
+}
+button#buy_now_button {
+    background: #008848;
+    width: 100%;
+    border-radius: 6px;
+    font-weight: 300;
+	margin-bottom: 0;
+}
+/* css info-pro sau form add to cart */
+.row-info-pro .col-info-pro>.col-inner {
+    background: #e9edf0;
+    padding: 10px;
+    border-radius: 6px;
+}
+.col-info-pro {
+    padding-bottom: 0;
+}
+
+.info-pro-text p {
+    margin-bottom: 6px;
+    font-size: 14px;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    padding-left: 26px;
+}
+.info-pro-text p a {
+    color: #007cd4;
+}
+.info-pro-icon-1 p {
+    background-image: url(/wp-content/uploads/2021/11/icon-dongho.png);
+}
+.info-pro-icon-2 p {
+    background-image: url(/wp-content/uploads/2021/11/icon-back.png);
+}
+
+/* css mota-sanpham large-7  */
+.product-footer .woocommerce-tabs {
+    border-top: none;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+p.title-mota {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 5px;
+}
+#tab-description p, div#tab-description .short-description {
+    font-size: 14px;
+    color: #000;
+}
+.description.show-moreinfo #tab-description h1, .description.show-moreinfo #tab-description h2, .description.show-moreinfo #tab-description h3, .description.show-moreinfo #tab-description h4 {
+    color: #000;
+    font-weight: 600;
+}
+/* css right-mota-sanpham large-5  */
+.single-product .product-footer {
+    margin-top: 6px;
+}
+.right-mota-sanpham, .mota-sanpham {
+	float: left;
+	background: #fff;
+	padding: 10px;
+}
+.single-product .stack.stack-cate {
+    overflow: auto;
+}
+.single-product .stack-cate .icon-box, .single-product  .stack-cate a {
+    flex-basis: 22%;
+}
+.single-product .stack.stack-cate::-webkit-scrollbar {
+    height: 10px;
+}
+.single-product .stack.stack-cate::-webkit-scrollbar-thumb {
+    background: #008848;
+    border-radius: 4px;
+}
+.single-product .stack.stack-cate::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #a5a5a5;
+    border-radius: 4px;
+}
+.single-product .col-cate-pro>.col-inner {
+    background: bottom;
+}
+/* css blog product - ux builder tin tức */
+/* css title-blog */
+.title-blog-pro {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.title-blog-pro h3 span {
+    font-size: 14px;
+    color: #000;
+}
+.title-blog-pro a {
+    font-size: 12px;
+    color: #288ad6;
+}
+.title-blog-pro a i.icon-angle-right {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.blog-product .col.post-item {
+    padding-bottom: 4px;
+}
+.blog-product .col.post-item>.col-inner {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 4px;
+}
+.blog-product h5.post-title.is-large {
+    font-weight: 300;
+    font-size: 13px;
+}
+.is-divider {
+    display: none;
+}
+.blog-product .box-text.text-center {
+    padding: 8px 4px 0px 8px;
+    text-align: left;
+}
+
+/* css form comment */
+.single-product div#tab-reviews {
+    margin-top: 30px;
+}
+.star-rating span:before, .stars a:hover:after, .stars a.active:after, .star-rating:before, .woocommerce-page .star-rating:before {
+	color: #ff6600;
+}
+.single-product #commentform input#submit {
+    background-color: #008848;
+    border-radius: 4px;
+	border: none;
+}
+.single-product textarea#comment {
+    min-height: 80px;
+}
+#commentform input, #commentform textarea {
+    border-radius: 6px;
+    box-shadow: 0px 0px;
+    border: 1px solid #000;
+}
+.single-product .commentlist strong.woocommerce-review__author {font-size: 14px;}
+.single-product .commentlist .star-rating {
+    font-size: 12px;
+}
+.single-product .commentlist time.woocommerce-review__published-date {
+    font-size: 14px;
+}
+.single-product .commentlist img {
+    width: 70%;
+}
+.single-product .commentlist .comment-text.flex-col.flex-grow {
+    padding-left: 0;
+}
+.single-product .commentlist .description p {
+    font-style: normal;
+    font-size: 14px;
+}
+ol.commentlist li {
+    margin-left: 0;
+}
+
+/* css sản phẩm liên quan */
+.single-product .row-small>.flickity-viewport>.flickity-slider>.product-small.col {
+    padding: 0;
+}
+
+/* css trang thanh toán */
+.col-main-bg {
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+.woocommerce-checkout form.checkout.woocommerce-checkout {
+    margin-bottom: 0;
+}
+.woocommerce-checkout .woocommerce-checkout .col.large-7.pb-0 {
+    min-width: 100%;
+}
+.woocommerce-checkout .cart-collaterals.large-5.col.pb-0 {
+    min-width: 100%;
+}
+.woocommerce-checkout form.checkout_coupon.woocommerce-form-coupon.has-border.is-dashed, .woocommerce-checkout .woocommerce-form-coupon-toggle {
+    display: none;
+}
+.woocommerce-checkout .col-inner.has-border {
+    border: none;
+    padding: 0;
+}
+.woocommerce-checkout .shop_table .order-total th, .woocommerce-checkout .shop_table .order-total td {
+	border-width: 1px;
+}
+.woocommerce-checkout .woocommerce-billing-fields {
+	border: none;
+}
+.woocommerce-checkout  form.checkout_coupon.mb-0 {
+    display: block !important;
+}
+.woocommerce-checkout  .cart-collaterals.large-5.col.pb-0 {
+    border: none;
+}
+table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents td.actions.clear, table.shop_table.woocommerce-checkout-review-order-table tr.cart_item, table.shop_table.woocommerce-checkout-review-order-table tr.cart-subtotal, table.shop_table.woocommerce-checkout-review-order-table thead, ul.wc_payment_methods.payment_methods.methods, .woocommerce-checkout .woocommerce-additional-fields h3, div#payment .form-row.place-order, .woocommerce-checkout table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents tbody td.product-quantity {
+    display: none;
+}
+.woocommerce-checkout input#coupon_code {
+    width: 35%;
+    float: left;
+    margin-right: 3%;
+    box-shadow: 0 0;
+    height: 32px;
+    border: solid 1px #eee;
+}
+.woocommerce-checkout .cart-sidebar .widget-title {
+    border: none;
+    width: 25%;
+    float: left;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.woocommerce-checkout input.is-form.expand {
+    width: 20% !important;
+    float: left;
+    padding: 0;
+    border: 1px solid #008848;
+    background-color: #008848;
+    color: #fff;
+    border-radius: 3px;
+    text-shadow: 0 0;
+    min-height: 31px;
+    line-height: 10px;
+    font-size: 14px;
+}
+input#billing_first_name, .woocommerce-checkout input#billing_address_1, .woocommerce-checkout input#billing_phone, .woocommerce-checkout input#billing_email, .woocommerce-checkout textarea#order_comments {
+	box-shadow: none;
+	border-color: #000;
+	height: 32px;
+	margin-bottom: 0;
+	border-radius: 4px;
+}
+.woocommerce-checkout p#billing_address_1_field {
+	margin-right: 0px;
+}
+
+.woocommerce-checkout .cart-wrapper table.shop_table thead tr th {
+    font-weight: 300;
+    text-transform: inherit;
+}
+.woocommerce-checkout .cart-wrapper table.shop_table td.product-name dl {
+    text-transform: inherit;
+    color: #000;
+    opacity: 1;
+}
+.woocommerce-checkout .cart-wrapper table.shop_table td.product-name a {
+    color: #000;
+}
+.woocommerce-checkout .cart-wrapper table.shop_table td.product-remove a {
+    color: #d70018;
+}
+.woocommerce-checkout div#customer_details .woocommerce-billing-fields label {
+    font-weight: 300;
+}
+button#place_order {
+    background: #008848;
+    border-radius: 6px;
+}
+
+
+/* css bài viết home-blog */
+.col.col-blog {
+	padding-bottom: 0;
+}
+.home-blog .col.post-item {
+    padding-bottom: 0;
+}
+.home-blog .col.post-item .box-text.text-left {
+    padding: 0px 0px 0px 10px;
+}
+.home-blog .col.post-item .col-inner {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.home-blog .col.post-item:first-child .col-inner {
+    padding-top: 0;
+}
+.home-blog .col.post-item:last-child .col-inner {
+    border-bottom: 0;
+}
+.home-blog .col.post-item h5.post-title.is-large {
+    line-height: 1.3em;
+    font-size: 13px;
+    color: #4a4a4a;
+    font-weight: 300;
+}
+.xemthem-blog {
+	margin-bottom: 0;
+}
+.xemthem-blog a {
+    color: #288ad6;
+    font-size: 13px;
+}
+.title-video p {
+    margin-bottom: 8px;
+    color: #288ad6;
+    font-weight: 600;
+}
+
+/* css chi tiết bài viết */
+.single-post .page-wrapper, .archive.category .page-wrapper {
+	padding-top: 0
+}
+.single-post .sidebar-right, .archive.category .sidebar-right {
+	padding: 15px;
+}
+.single-post .sidebar-right .type-post, .archive.category .sidebar-right .page-inner {
+	background: #fff;
+	padding: 10px;
+}
+.single-post #comments .comment-respond {
+	background: #fff;
+}
+.single-post h6.entry-category.is-xsmall {
+    display: none;
+}
+.single-post .entry-header-text.entry-header-text-top.text-left {
+    padding-bottom: 0;
+}
+.single-post h1.entry-title {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+@media (min-width: 1230px) {
+	/* 	css sidebar right */
+	.sidebar-right .page-inner {
+		margin-left: 8px;
+	}
+	.single-product .product-footer {
+		margin-left: -7px;
+	}
+}
+@media (max-width: 1230px) and (min-width: 850px) {
+	.sidebar-danhmuc, .post-sidebar {
+		padding: 0 !important;
+	}
+}
+@media (max-width: 1230px) and (min-width: 1203px) {
+	.single-product .product-footer {
+		margin-left: -14px;
+	}
+}
+@media (max-width: 1200px) and (min-width: 1150px)  {
+	/* 	css sidebar right */
+	.sidebar-right .page-inner {
+		margin-left: 8px;
+	}
+	.single-product .product-footer {
+		margin-left: -7px;
+	}
+}
+@media (max-width: 1155px) and (min-width: 992px) { /* thêm cái này khi trang chủ 1 dòng 5 sản phẩm */
+	/* 	css cửa hàng sản phẩm - shop */
+	.product-small.col a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+		line-height: 13px;
+	}
+}
+@media (max-width: 1150px) and (min-width: 1100px)  {
+	/* 	css sidebar right */
+	.sidebar-right .page-inner {
+		margin-left: 16px;
+	}
+	.single-product .product-footer {
+		margin-left: 1px;
+	}
+}
+@media (max-width: 1100px) and (min-width: 1050px)  {
+	/* 	css sidebar right */
+	.sidebar-right .page-inner {
+		margin-left: 24px;
+	}
+	.single-product .product-footer {
+		margin-left: 9px;
+	}
+}
+@media (max-width: 1050px) and (min-width: 1030px)  {
+	/* 	css sidebar right */
+	.sidebar-right .page-inner {
+		margin-left: 28px;
+	}
+	.single-product .product-footer {
+		margin-left: 13px;
+	}
+}
+@media (max-width: 1030px) and (min-width: 992px)  {
+	/* 	css sidebar right */
+	.sidebar-right .page-inner {
+		margin-left: 34px;
+	}
+	.single-product .product-footer {
+		margin-left: 19px;
+	}
+}
+@media (max-width: 992px) and (min-width: 960px)  { 
+	/* 	css sidebar right */
+	.sidebar-right .page-inner {
+		margin-left: 40px;
+	}
+	.single-product .product-footer {
+		margin-left: 25px;
+	}
+}
+@media (max-width: 992px) and (min-width: 850px) { /* thêm cái này khi trang chủ 1 dòng 5 sản phẩm */
+	/* 	css cửa hàng sản phẩm - shop */
+	.product-small.col a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+		width: 100%;
+		margin-top: 6px;
+		display: inline-block;
+	}
+	.product-small.col .quantity .button.minus, .quantity .button.plus {
+		width: 38px;
+	}
+	.product-small.col .quantity input[type="number"] {
+		width: 40px;
+    	max-width: 100%;
+	}
+}
+@media (max-width: 960px) and (min-width: 920px)  {
+	/* 	css sidebar right */
+	.sidebar-right .page-inner {
+		margin-left: 46px;
+	}
+	.single-product .product-footer {
+		margin-left: 30px;
+	}
+}
+@media (max-width: 920px) and (min-width: 880px)  {
+	/* 	css sidebar right */
+	.sidebar-right .page-inner {
+		margin-left: 52px;
+	}
+	.single-product .product-footer {
+		margin-left: 37px;
+	}
+}
+@media (max-width: 880px) and (min-width: 850px) {
+	/* 	css sidebar right */
+	.sidebar-right .page-inner {
+		margin-left: 56px;
+	}
+	.single-product .product-footer {
+		margin-left: 41px;
+	}
+}
+
+
+@media (min-width: 850px) {
+	/* 	css header */
+	
+	/* css left sidebar */
+	.sidebar-danhmuc, .post-sidebar {
+	
+		border: none;
+		max-height: 100% !important;
+	}
+	.is-divider.small {
+		display: none;
+	}
+	.sidebar-danhmuc div#secondary, .post-sidebar div#secondary {
+		width: 200px;
+		top: 20px;
+		background: #fff;
+		border-radius: 6px;
+		overflow-y: scroll;
+		max-height: 100%;
+	}
+	h3.widget-title.title-pvlan {
+		font-size: 16px;
+		border-bottom: 1px solid #e5e5e5;
+		padding: 8px 0 8px 25px;
+		margin-bottom: 0;
+		font-weight: 300;
+	}
+	.sidebar-danhmuc aside:first-child h3.widget-title.title-pvlan, .post-sidebar aside:first-child h3.widget-title.title-pvlan {
+		background-image: url(/wp-content/uploads/2021/11/menu-danhmuc.png);
+		background-repeat: no-repeat;
+		background-size: 21px;
+		background-position: left center;
+	}
+	.sidebar-danhmuc li.cat-item ul.children, .post-sidebar li.cat-item ul.children {
+		border: none;
+		padding-left: 5px;
+		font-size: 14px;
+	}
+	.sidebar-danhmuc aside.widget.widget_text, .post-sidebar aside.widget.widget_text {
+		margin-bottom: 0;
+	}
+	.sidebar-danhmuc div#secondary aside.widget, .post-sidebar div#secondary aside.widget {
+		padding: 0 10px;
+	}
+
+	.sidebar-danhmuc div#secondary::-webkit-scrollbar, .post-sidebar div#secondary::-webkit-scrollbar {
+		width: 2px;
+	}
+	.sidebar-danhmuc div#secondary::-webkit-scrollbar-thumb, .post-sidebar div#secondary::-webkit-scrollbar-thumb {
+		background: #008848;
+		border-radius: 4px;
+	}
+	.sidebar-danhmuc div#secondary::-webkit-scrollbar-track, .post-sidebar div#secondary::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 2px #a5a5a5;
+		border-radius: 4px;
+	}
+	/* 	css form search trong sidebar */
+	#secondary form.searchform {
+		margin-bottom: 8px;
+	}
+	#secondary aside#search-2 {
+		margin-bottom: 0;
+	}
+	#secondary aside#woocommerce_product_categories-2,#secondary  aside#woocommerce_product_categories-4 {
+		margin-bottom: 4px;
+	}
+	#secondary input#s {
+		box-shadow: 0 0;
+		height: 32px;
+		border-right: 0;
+		border-radius: 4px 0 0 4px;
+	}
+	#secondary button.ux-search-submit {
+		height: 32px;
+		padding: 0;
+		min-height: 0;
+		background: bottom;
+		border: 1px solid #ddd;
+		border-left: 0;
+		border-radius: 0px 4px 4px 0;
+	}
+	#secondary button.ux-search-submit i.icon-search {
+		color: #e5e0e0;
+		font-size: 16px;
+	}
+	/* 	css sản phẩm trong sidebar */
+	.sidebar-danhmuc .widget_products ul.product_list_widget li a {
+		font-size: 13px;
+	}
+	.sidebar-danhmuc .widget_products ul.product_list_widget li bdi {
+		font-size: 12px;
+	}
+	/* 	css chi tiết sản phẩm */
+	.single-product .product-footer {
+		margin-right: -15px;
+	}
+	
+}
+
+
+@media (max-width: 850px) {
+	/* 	css chi tiết sản phẩm */
+	.single-product .product-main {
+		background: #fff;
+	}
+}
+@media (max-width: 768px) {
+	/* 	css danh mục bài viết */
+	.archive.category .box-image {
+		width: 25%;
+		float: left;
+	}
+	.archive.category .box-text.text-left {
+		width: 75%;
+		float: left;
+		padding-left: 10px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.archive.category .box-text.text-left p.from_the_blog_excerpt {
+		display: none;
+	}
+	.archive.category .box-text.text-left h5.post-title.is-large {
+		font-weight: 300;
+		height: 48px;
+	}
+
+	.archive.category .col.post-item {
+		padding-bottom: 10px;
+	}
+	/* 	chi tiết bài viết */
+	.post-sidebar div#secondary {
+		display: none;
+	}
+	/* 	css footer */
+	.footer-right-sidebar {
+		padding: 0 5px;
+	}
+}
+
+@media (max-width: 480px) {
+	/* 	css mobile menu danh mục */
+	#header .mobile-nav i.icon-menu:after {
+		content: "MENU";
+		font-size: 10px;
+		display: block;
+		line-height: 2px;
+		font-family: monospace;
+	}
+	#header .mobile-nav i.icon-menu {
+		text-align: center;
+	}
+	.mfp-container.mfp-s-ready.mfp-inline-holder {
+		padding: 0;
+	}
+	.mfp-content {
+		width: 450px !important;
+		margin-top: 55px;
+		background: #fff !important;
+		overflow-y: hidden !important;
+	}
+	.mfp-content.off-canvas-cart {
+		overflow-y: scroll !important;
+	}
+	.has-off-canvas .current-lightbox-clicked {
+		opacity: 1 !important;
+		transform: translateX(0px) !important;
+	}
+	.mfp-bg.off-canvas.off-canvas-left.main-menu-overlay.mfp-ready {
+		background: bottom;
+	}
+	.tabbed-content.menu-danhmuc {
+		height: 700px;
+	}
+	.menu-danhmuc ul.nav.nav-simple.nav-vertical {
+		width: 36%;
+		float: left;
+		background: #f4f9ff;
+		overflow-x: scroll;
+    	height: 100%;
+	}
+	.menu-danhmuc .tab-panels {
+		width: 64%;
+		float: left;
+		background: #fff;
+		overflow-y: scroll;
+    	height: 100%;
+	}
+	li.html.custom.html_topbar_right {
+		padding: 0;
+	}
+	.sidebar-menu.no-scrollbar {
+		padding: 0;
+	}
+	.menu-danhmuc ul li.tab.has-icon {
+		padding: 14px 0px 14px 4px;
+		min-height: 46px;
+	}
+
+	.menu-danhmuc ul li.tab.has-icon a {
+		padding: 0;
+		font-weight: 600;
+		font-size: 11px;
+		color: #000;
+	}
+	.menu-danhmuc .tab-panels .product-category.col {
+		padding: 0;
+	}
+	.menu-danhmuc .tab-panels .product-category.col .box-text.text-center {
+		padding: 5px;
+	}
+	.menu-danhmuc .tab-panels .product-category.col h5.uppercase.header-title {
+		font-weight: 300;
+		text-transform: initial;
+		color: #000;
+	}
+	.menu-danhmuc .box-image {
+		width: 52px;
+		height: 52px;
+		border-radius: 8px;
+		border: 1px solid #f2f5f9;
+		padding: 6px;
+	}
+	.home main#main {
+		background: #f4f9ff;
+	}
+	/* 	css coupon */
+	.col.col-coupon>.col-inner {
+		padding: 8px 4px;
+	}
+	.stack-coupon .ct-coupon {
+		flex-basis: 60%;
+		margin-right: 1% !important;
+	}
+	.stack-coupon{
+		overflow: auto;
+	}
+	.stack-coupon::-webkit-scrollbar {
+		display: none;
+	}
+	/* 	css nhóm hàng thường mua - cate-pro */
+	.stack.stack-cate {
+		overflow: auto;
+	}
+	.stack-cate .icon-box, .stack-cate a {
+		flex-basis: 22%;
+	}
+	.stack.stack-cate::-webkit-scrollbar {
+		display: none;
+	}
+	/* 	css sản phẩm */	
+	.col-product>.col-inner {
+		padding: 0 8px;
+	}
+	/* 	css cửa hàng sản phẩm - shop */
+	.product-small.col {
+		padding: 2px !important;
+	}
+	.product-small.col>.col-inner {
+		background: #fff;
+		border: 1px solid #e4e9f2;
+    	box-shadow: 0 3px 2px rgb(198 218 248 / 25%);
+	}
+	.product-small.col a.woocommerce-LoopProduct-link.woocommerce-loop-product__link {
+		font-size: 13px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+	}
+	.product-small.col a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+		margin-bottom: 6px;
+	}
+	/* 	css footer */
+	.col-tb .col-inner{
+		display: block;
+	}
+	
+	/* 	css tin tức home-blog */
+	.col.col-blog-mobile {
+		margin-top: 15px;
+	}
+	.home-blog .box-image {
+		width: 26% !important;
+		float: left;
+	}
+	.home-blog .col.post-item .box-text.text-left {
+		padding-left: 10px;
+		width: 70%;
+		float: left;
+	}
+	/* 	css chi tiết sản phẩm */
+	.mota-sanpham {
+		padding: 0;
+	}
+	/* 	css trang thanh toán */
+	.woocommerce-checkout .page-wrapper {
+		padding-top: 0px;
+	}
+	.woocommerce-checkout .cart-sidebar .widget-title {
+		width: 35%;
+	}
+}
+
+@media (max-width: 480px) and (min-width: 376px) {
+	/* 	css mobile menu danh mục */
+	.tabbed-content.menu-danhmuc {
+		padding-bottom: 30px;
+	}
+}
+
+@media (max-width: 375px) {
+	/* 	css mobile menu danh mục */
+	.tabbed-content.menu-danhmuc {
+		height: 500px;
+	}
+}
+
+@media (max-width: 375px) and (min-width: 320px) {
+	/* 	css cửa hàng sản phẩm - shop */
+	.product-small.col .pvlan-btn-quantity {
+		padding: 0px 4px;
+	}
+	.product-small.col .quantity.buttons_added {
+		margin-right: 0;
+	}
+	.product-small.col .quantity input[type="number"] {
+		height: 25px;
+	}
+	.product-small.col .quantity .button.minus, .quantity .button.plus {
+		line-height: 13px;
+	}
+	.product-small.col a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+		line-height: 2.1em;
+    	min-height: 2em;
+		float: right;
+		padding: 0 4px;
+	}
+	/* 	css footer */
+	p.tongdai-text, p.tongdai-text a, p.hethong, p.hethong a {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 320px) {
+	/* 	css coupon */
+	.ct-coupon .title {
+		font-size: 15px;
+	}
+	/* 	css cửa hàng sản phẩm - shop */
+	.product-small.col .pvlan-btn-quantity {
+		padding: 0px 3px;
+	}
+	.product-small.col .quantity .button.minus, .quantity .button.plus {
+		width: 19px;
+	}
+	.product-small.col .quantity input[type="number"] {
+		font-size: 11px;
+		height: 23px;
+	}
+	.product-small.col a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+		font-size: 10px;
+		padding: 0 2px;
+	}
+	/* 	css footer */
+	p.tongdai-text, p.tongdai-text a, p.hethong, p.hethong a {
+		font-size: 11px;
+	}
+	p.tongdai-1, p.tongdai-2 {
+		background-size: 16px;
+    	padding-left: 19px;
+	}
+	p.hethong {
+		background-size: 18px;
+    	padding-left: 22px;
+	}
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
+
